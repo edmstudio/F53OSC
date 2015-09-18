@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B673D3F1BAC91C300400CC9 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFA03101BA8812100B00965 /* CocoaAsyncSocket.framework */; };
 		4BFA02A61BA87FB600B00965 /* F53OSC (iOS).h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFA02A51BA87FB600B00965 /* F53OSC (iOS).h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BFA02D71BA8803700B00965 /* F53OSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFA02BB1BA8803700B00965 /* F53OSC.h */; };
 		4BFA02D81BA8803700B00965 /* F53OSCBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFA02BC1BA8803700B00965 /* F53OSCBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BFA02D91BA8803700B00965 /* F53OSCBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFA02BC1BA8803700B00965 /* F53OSCBundle.h */; };
 		4BFA02DA1BA8803700B00965 /* F53OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA02BD1BA8803700B00965 /* F53OSCBundle.m */; };
@@ -61,7 +61,6 @@
 		4BFA03091BA8803700B00965 /* NSString+F53OSCString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFA02D41BA8803700B00965 /* NSString+F53OSCString.h */; };
 		4BFA030A1BA8803700B00965 /* NSString+F53OSCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA02D51BA8803700B00965 /* NSString+F53OSCString.m */; };
 		4BFA030B1BA8803700B00965 /* NSString+F53OSCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA02D51BA8803700B00965 /* NSString+F53OSCString.m */; };
-		4BFA03111BA8812100B00965 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFA03101BA8812100B00965 /* CocoaAsyncSocket.framework */; };
 		4BFA03121BA881D300B00965 /* F53OSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFA02871BA87F8800B00965 /* F53OSC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -72,7 +71,6 @@
 		4BFA02A11BA87FB600B00965 /* F53OSC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = F53OSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFA02A41BA87FB600B00965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BFA02A51BA87FB600B00965 /* F53OSC (iOS).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "F53OSC (iOS).h"; sourceTree = "<group>"; };
-		4BFA02BB1BA8803700B00965 /* F53OSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSC.h; path = ../../F53OSC.h; sourceTree = "<group>"; };
 		4BFA02BC1BA8803700B00965 /* F53OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCBundle.h; path = ../../F53OSCBundle.h; sourceTree = "<group>"; };
 		4BFA02BD1BA8803700B00965 /* F53OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCBundle.m; path = ../../F53OSCBundle.m; sourceTree = "<group>"; };
 		4BFA02BE1BA8803700B00965 /* F53OSCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCClient.h; path = ../../F53OSCClient.h; sourceTree = "<group>"; };
@@ -107,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BFA03111BA8812100B00965 /* CocoaAsyncSocket.framework in Frameworks */,
+				4B673D3F1BAC91C300400CC9 /* CocoaAsyncSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +176,6 @@
 		4BFA02BA1BA8800900B00965 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4BFA02BB1BA8803700B00965 /* F53OSC.h */,
 				4BFA02BC1BA8803700B00965 /* F53OSCBundle.h */,
 				4BFA02BD1BA8803700B00965 /* F53OSCBundle.m */,
 				4BFA02BE1BA8803700B00965 /* F53OSCClient.h */,
@@ -253,7 +250,6 @@
 				4BFA02E11BA8803700B00965 /* F53OSCFoundationAdditions.h in Headers */,
 				4BFA02DD1BA8803700B00965 /* F53OSCClient.h in Headers */,
 				4BFA02F51BA8803700B00965 /* F53OSCSocket.h in Headers */,
-				4BFA02D71BA8803700B00965 /* F53OSC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +589,7 @@
 				4BFA02981BA87F8900B00965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BFA02B41BA87FB600B00965 /* Build configuration list for PBXNativeTarget "F53OSC (iOS)" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +598,7 @@
 				4BFA02B61BA87FB600B00965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
