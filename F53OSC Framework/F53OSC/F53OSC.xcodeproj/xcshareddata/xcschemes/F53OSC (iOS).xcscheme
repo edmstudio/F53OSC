@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4BFA02A01BA87FB600B00965"
-               BuildableName = "F53OSC (iOS).framework"
+               BuildableName = "F53OSC.framework"
                BlueprintName = "F53OSC (iOS)"
                ReferencedContainer = "container:F53OSC.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4BFA02A01BA87FB600B00965"
-            BuildableName = "F53OSC (iOS).framework"
+            BuildableName = "F53OSC.framework"
             BlueprintName = "F53OSC (iOS)"
             ReferencedContainer = "container:F53OSC.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4BFA02A01BA87FB600B00965"
-            BuildableName = "F53OSC (iOS).framework"
+            BuildableName = "F53OSC.framework"
             BlueprintName = "F53OSC (iOS)"
             ReferencedContainer = "container:F53OSC.xcodeproj">
          </BuildableReference>
