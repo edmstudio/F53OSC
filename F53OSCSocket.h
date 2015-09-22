@@ -26,8 +26,19 @@
 
 #import <Foundation/Foundation.h>
 
+
+#ifdef FRAMEWORK_BUILD
+
 #import <CocoaAsyncSocket/GCDAsyncSocket.h>
 #import <CocoaAsyncSocket/GCDAsyncUdpSocket.h>
+
+#else
+
+#import "GCDAsyncSocket.h"
+#import "GCDAsyncUdpSocket.h"
+
+#endif
+
 
 #define F53_OSC_SOCKET_DEBUG 0
 
