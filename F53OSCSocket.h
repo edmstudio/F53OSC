@@ -27,15 +27,16 @@
 #import <Foundation/Foundation.h>
 
 
-#ifdef FRAMEWORK_BUILD
+#ifdef COCOAPODS
+
+#import "GCDAsyncSocket.h"
+#import "GCDAsyncUdpSocket.h"
+
+#else
 
 #import <CocoaAsyncSocket/GCDAsyncSocket.h>
 #import <CocoaAsyncSocket/GCDAsyncUdpSocket.h>
 
-#else
-
-#import "GCDAsyncSocket.h"
-#import "GCDAsyncUdpSocket.h"
 
 #endif
 
