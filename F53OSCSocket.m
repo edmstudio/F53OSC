@@ -43,7 +43,7 @@
 @interface F53OSCStats ()
 
 @property (strong) NSDate *currentTime;
-@property (strong) dispatch_queue_t timerQueue;
+@property (assign) dispatch_queue_t timerQueue;
 @property (assign) bool stopCounting;
 
 @property (assign) double totalBytes;
